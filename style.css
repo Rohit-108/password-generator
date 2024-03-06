@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: 'League Spartan',sans-serif;
+}
+
+:root{
+    --dk-violet: hsl(268,75%,9%);
+    --lt-violet: hsl(268,47%,21%);
+    --lt-violet2: hsl(281,89%,26%);
+    --vb-violet: hsl(285,91%,52%);
+    --vb-violet2: hsl(290,70%,36%);
+    
+    --dk-yellow: hsl(52,100%,62%);
+    
+    --pl-white: hsl(0,0%,100%);
+    
+    --vb-cyan: hsl(176,100%,44%);
+    --vb-cyan2:hsl(177,92%,70%%);
+    --dk-text:hsl(198,20%,13%);
+
+}
+
+body{
+    background: linear-gradient(231deg,rgba(22, 6,40,1) 0%, rgba(52, 28,79,1) 50%, rgba(88,7,125,1)100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 90%;
+    max-width: 450px ;
+}
+
+h1{
+    color:var(--pl-white) ;
+    opacity: 0.75;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.display-container{
+    position: relative;
+    background: var(--dk-violet);
+    border-radius: 1rem;
+    border-bottom: 0.35 solid var(--lt-violet2);
+    margin: 1rem 0;
+    padding-top: o.35rem;
+    
+}
+.display {
+    width: 100%;
+    background-color: transparent;
+    padding: 1.15 rem 1 rem;
+    color: var(--dk-yellow);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-right: 3.25rem;
+    border: none;
+}
+
+.display::placeholder{
+   position: absolute;
+    top: 50%;
+    left:1.5rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: var(--dk-yellow);
+    opacity: 0.65;
+    text-transform: uppercase;
+}
+
+
+
+.input-container{
+    background-color: var(--dk-violet);
+    border-radius: 1.2rem;
+    width: 100%;
+}
+
+.length-container{
+    color: white;
+    background: transparent;
+    font-size: 1.5rem;
+    line-height: 25px;
+    /* letter-spacing: 0.5px; */
+    padding: 25px 25px;
+}
+
+
