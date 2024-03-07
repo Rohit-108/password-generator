@@ -17,6 +17,8 @@ let passwordLength = 10;
 let checkCount = 1;
 handleSlider();
 
+setIndicator("#ccc");
+
 // set password Length
 function handleSlider() {
   inputSlider.value = passwordLength;
