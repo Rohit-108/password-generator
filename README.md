@@ -1,0 +1,1 @@
+This is a single page password generator web application which is created with the help of html css and javascript.In this Web application user can generate a strong random password very easily by choosing down requirements.
